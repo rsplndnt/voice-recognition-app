@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Recognition App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>音声認識アプリ</h1>
+        
+        <button class="mic-button" id="micButton" aria-label="録音開始">
+            <svg class="mic-icon" viewBox="0 0 24 24">
+                <path d="M12 14a3 3 0 0 0 3-3V5a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/>
+                <path d="M19 10v1a7 7 0 0 1-14 0v-1M12 18.75v3.5"/>
+            </svg>
+        </button>
+        
+        <div class="status" id="status" aria-live="polite"></div>
+        
+        <div class="text-output">
+            <h2>認識されたテキスト</h2>
+            <div class="text-content" id="textOutput"></div>
+        </div>
+        
+        <div class="error-message" id="errorMessage" aria-live="assertive"></div>
+    </div>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
