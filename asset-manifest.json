@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/voice-recognition-app/static/css/main.b9a7be80.css",
+    "main.js": "/voice-recognition-app/static/js/main.e26dfb3a.js",
+    "static/js/453.d48a8706.chunk.js": "/voice-recognition-app/static/js/453.d48a8706.chunk.js",
+    "index.html": "/voice-recognition-app/index.html",
+    "main.b9a7be80.css.map": "/voice-recognition-app/static/css/main.b9a7be80.css.map",
+    "main.e26dfb3a.js.map": "/voice-recognition-app/static/js/main.e26dfb3a.js.map",
+    "453.d48a8706.chunk.js.map": "/voice-recognition-app/static/js/453.d48a8706.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9a7be80.css",
+    "static/js/main.e26dfb3a.js"
+  ]
+}
